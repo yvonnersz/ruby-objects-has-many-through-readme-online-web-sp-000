@@ -17,7 +17,7 @@ class Customer
   end
 
   def meals
-    Meal.customer
+    new_meal.customer
   end
 
 end
