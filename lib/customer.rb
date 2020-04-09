@@ -23,7 +23,8 @@ class Customer
   end
 
   def waiters
-    Meal.all.map {|meal| meal.waiter}
+    Meal.all.select do |meal|
+      meal.waiter
   end
 
 end
