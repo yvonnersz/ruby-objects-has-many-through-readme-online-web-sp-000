@@ -5,5 +5,5 @@ class Customer
     @name = name
     @age = age
   end
-  
+
 end
