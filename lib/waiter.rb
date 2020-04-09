@@ -22,4 +22,8 @@ class Waiter
     end
   end
 
+  def best_tipper
+    meals.max do |meal_a,meal_b|
+  end
+
 end
