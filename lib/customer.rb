@@ -17,7 +17,7 @@ class Customer
   end
 
   def meals
-    new_meal.customer
+    new_meal.customer == self
   end
 
 end
